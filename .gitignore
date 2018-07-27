@@ -1,4 +1,4 @@
 .*
 !/.gitignore
 *.csv
-!/SilmariliBOM.csv
+!/SilmarilBOM.csv
