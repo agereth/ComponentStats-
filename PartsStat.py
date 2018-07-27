@@ -7,6 +7,13 @@ dummies = ["", "*", "Logo", "Fuse0R", "Logo", "TESTPOINT", "REFPOINT", "HOLE_MET
 components = {}
 
 
+def get_safe_data(BOMfilename:str)->(int, list):
+    """
+
+    :param BOMfilename:
+    :return:
+    """
+
 def main():
     for BOMfilename in os.listdir("."):
         if BOMfilename.split('.')[1] == 'csv':
