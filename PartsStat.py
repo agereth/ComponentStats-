@@ -45,7 +45,7 @@ def write_data_to_xls(result: list):
     for value, count, projects in result:
         sheet1.write(i, 0, value)
         sheet1.write(i, 1, count)
-        sheet1.write(i, 2, projects)
+        sheet1.write(i, 2, ' '.join(projects))
         i += 1
     book.save("Components Statistics.xls")
 
